@@ -92,8 +92,8 @@ Gold และ Oil “Decoupled” ในช่วงสงคราม
 
 - Positive correlation ชัดเจน
 - ข่าวเพิ่ม → ราคาน้ำมันเพิ่ม
-  
-![Comprehensive Dynamics](assets/3Theory_vs_Reality_by_Asset.png)
+
+![Comprehensive Dynamics](./assets/3Theory_vs_Reality_by_Asset.png)
 
 ---
 
