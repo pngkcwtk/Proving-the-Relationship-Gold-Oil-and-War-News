@@ -111,13 +111,13 @@ Gold และ Oil “Decoupled” ในช่วงสงคราม
 - มีช่วง correlation สูง/ต่ำสลับกัน
 - ปี 2026 มี spike ชัดเจน
 
-![Statistical Proof](assets/2Statistical_Proof.png)
+![Statistical Proof](assets/2StatisticalProof.png)
 
 ---
 
 ## 🌍 Market Overview
 
-![Comprehensive Dynamics](assets/1Comprehensive_Dynamics.png)
+![Comprehensive Dynamics](assets/1ComprehensiveDynamics.png)
 
 ---
 
