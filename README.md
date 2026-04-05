@@ -1,4 +1,4 @@
-# 📊 Proving the Relationship: Gold, Oil, and War News
+# 📊 Inter-market Relationship Analysis (Gold vs. Oil)
 
 ---
 
@@ -26,7 +26,7 @@
 ## 📂 Project Structure
 
 ```
-INTER-MARKET RELATIONSHIP/
+Inter-market Relationship Analysis (Gold vs. Oil)
 │
 ├── assets/
 ├── data/
@@ -51,11 +51,18 @@ INTER-MARKET RELATIONSHIP/
 ---
 
 ## ⚙️ Installation
-
+1.
+```
 git clone https://github.com/your-username/proving-gold-oil-war-relationship.git
+```
+2.
+```
 cd proving-gold-oil-war-relationship
+```
+3.
+```
 pip install -r requirements.txt
-
+```
 ---
 
 ## 🚀 Usage
