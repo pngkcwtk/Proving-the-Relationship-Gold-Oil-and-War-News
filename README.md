@@ -1,17 +1,19 @@
 # 📊 Inter-market Relationship Analysis (Gold vs. Oil)
 
+> 🔍 Proof-based analysis of Gold, Oil, and War News dynamics
+
 ---
 
 ## 📌 Overview
 
-โปรเจกต์นี้มุ่งเน้นการทำ **Proof-based Analysis** เพื่อพิสูจน์ความสัมพันธ์ระหว่าง:
+โปรเจกต์นี้เป็นการวิเคราะห์เชิงพิสูจน์ (Proof-based Analysis) เพื่อศึกษาความสัมพันธ์ระหว่าง:
 
-- 🟡 ราคาทองคำ (Gold - THB)
-- 🛢️ ราคาน้ำมันดิบ WTI (Oil - USD)
-- 📰 ความเข้มข้นของข่าวสงคราม (War News Intensity)
+- 🟡 Gold (THB)
+- 🛢️ WTI Crude Oil (USD)
+- 📰 War News Intensity
 
-> 💡 คำถามหลัก:
-สงครามทำให้ทองและน้ำมันเคลื่อนไหวไปในทิศทางเดียวกันจริงหรือไม่?
+💡 Key Question:
+> สงครามทำให้ทองและน้ำมันเคลื่อนไหวไปในทิศทางเดียวกันจริงหรือไม่?
 
 ---
 
@@ -24,10 +26,8 @@
 ---
 
 ## 📂 Project Structure
-
 ```
-Inter-market Relationship Analysis (Gold vs. Oil)
-│
+📦 project-root
 ├── assets/
 ├── data/
 │   ├── raw/
@@ -47,20 +47,17 @@ Inter-market Relationship Analysis (Gold vs. Oil)
 ├── README.md
 └── LICENSE
 ```
-
 ---
 
 ## ⚙️ Installation
-1.
 ```
+# 1. Clone repository
 git clone https://github.com/your-username/proving-gold-oil-war-relationship.git
-```
-2.
-```
+
+# 2. Enter project
 cd proving-gold-oil-war-relationship
-```
-3.
-```
+
+# 3. Install dependencies
 pip install -r requirements.txt
 ```
 ---
@@ -79,7 +76,7 @@ python src/crawler/oil_scraper.py
 
 ---
 
-## 📊 Key Findings: The Proof of Reality
+## 📊 Key Findings — The Proof of Reality
 
 ❌ War News Paradox
 
@@ -87,28 +84,24 @@ python src/crawler/oil_scraper.py
 - War Period Correlation: ~0.03
 
 👉 Conclusion:
-สินทรัพย์ทั้งสอง "Decoupled" ในช่วงสงคราม
-
-![Noise](assets/4Visualizing%20Noise.png)
+Gold และ Oil “Decoupled” ในช่วงสงคราม
 
 ---
 
-🛢️ Oil Behavior (Verified ✅)
+🛢️ Oil Behavior (Verified)
 
 - Positive correlation ชัดเจน
 - ข่าวเพิ่ม → ราคาน้ำมันเพิ่ม
 
-![Scatter](assets/3Theory%20vs.%20Reality%20by%20Asset.png)
+assets/3Theory_vs_Reality_by_Asset.png
 
 ---
 
-🟡 Gold Behavior (Refuted ❌)
+🟡 Gold Behavior (Refuted)
 
 - ไม่ได้ขึ้นตามข่าวเสมอ
 - Price-in ล่วงหน้า
 - มีความผันผวนสูง
-
-(สังเกตจาก scatter plot: การกระจายตัวสูงกว่า oil)
 
 ---
 
@@ -118,15 +111,13 @@ python src/crawler/oil_scraper.py
 - มีช่วง correlation สูง/ต่ำสลับกัน
 - ปี 2026 มี spike ชัดเจน
 
-![Rolling](assets/2Statistical%20Proof.png)
+assets/2Statistical_Proof.png
 
 ---
 
 ## 🌍 Market Overview
 
-ภาพรวมการเคลื่อนไหวของทอง + น้ำมัน + ช่วงสงคราม
-
-![Overview](assets/1Comprehensive%20Dynamics.png)
+assets/1Comprehensive_Dynamics.png
 
 ---
 
@@ -141,7 +132,7 @@ python src/crawler/oil_scraper.py
 
 ## 💡 Key Insights
 
-- ❗ War ≠ Guaranteed Gold Rally
+- War ≠ Guaranteed Gold Rally
 - War news = Noise
 - Gold & Oil ไม่ได้เคลื่อนที่ไปด้วยกันเสมอ
 - Market behavior เป็นแบบ Dynamic
@@ -152,7 +143,7 @@ python src/crawler/oil_scraper.py
 
 - NLP วิเคราะห์ sentiment ข่าว
 - VAR / Granger Causality
-- เพิ่ม USD, Crypto
+- เพิ่ม USD / Crypto
 
 ---
 
@@ -160,3 +151,5 @@ python src/crawler/oil_scraper.py
 
 - Code: MIT License
 - Data: data/LICENSE_DATA.md
+
+---
