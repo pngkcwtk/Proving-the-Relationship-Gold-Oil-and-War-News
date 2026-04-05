@@ -1,12 +1,13 @@
 # 📊 Proving the Relationship: Gold, Oil, and War News
 
----
 ## 📌 Overview
 
 โปรเจกต์นี้มุ่งเน้นการทำ Proof-based Analysis เพื่อพิสูจน์ความสัมพันธ์ระหว่างสินทรัพย์สำคัญในภาวะความไม่แน่นอน:
 
 🟡 ราคาทองคำ (Gold - THB)
+
 🛢️ ราคาน้ำมันดิบ WTI (Oil - USD)
+
 📰 ความเข้มข้นของข่าวสงคราม (War News Intensity)
 
 
